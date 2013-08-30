@@ -1,0 +1,11 @@
+#!/bin/sh
+sudo add-apt-repository ppa:gophers/go
+sudo apt-get update
+sudo apt-get install golang-stable
+
+wget https://dl.google.com/dl/cloudsdk/google-cloud-sdk-0.9.7-linux-go_amd64.zip
+unzip google-cloud-sdk-0.9.7-linux-go_amd64.zip
+rm google-cloud-sdk-0.9.7-linux-go_amd64.zip
+
+echo "To activate env run:"
+echo "source bin/activate-env"

@@ -1,0 +1,2 @@
+#!/bin/sh
+PATH=$PATH:`pwd`/google-cloud-sdk-0.9.7/bin
